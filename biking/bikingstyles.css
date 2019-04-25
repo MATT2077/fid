@@ -67,4 +67,23 @@ h2 + p {
   text-align: left;
   font-style: bold;
 }
-<hgtml {style="background-color:powderblue;">
+html {background-color:blue;}
+
+@media screen and (min-width: 400px) {
+header {background-size: 80%;
+height: 400px;}
+}
+@media screen and (min-width: 600px) {
+header{height: 400px; background-size: 400px;}
+  main {
+    line-height: 1.8em;
+    padding: 1em;
+ }
+}
+@media screen and (min-width: 940px) {
+header{  height: 400px; background-size: 400px;}
+  nav {
+    color: red;
+    line-height: 1em;
+  }
+}
